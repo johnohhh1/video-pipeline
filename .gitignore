@@ -1,0 +1,17 @@
+# Allowlist: this folder also holds private case material and rendered media.
+# Only the generic tool below is published.
+/*
+!/.gitignore
+!/README.md
+!/LICENSE
+!/requirements.txt
+!/.env.example
+!/generate_video.py
+!/examples/
+# Never commit secrets or media
+.env
+.env.*
+!.env.example
+*.mp4
+*.mp3
+*.wav
